@@ -18,7 +18,6 @@ class FlatList extends Component {
    //     "priceCurrency": "EUR"
    //   }]
    // }
-
    componentWillMount() {
     // TODO: dispatch an action to load flats!
     // We need to set the setFlats method

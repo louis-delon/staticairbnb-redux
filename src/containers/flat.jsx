@@ -15,6 +15,9 @@ import { connect } from 'react-redux';
       backgroundImage:`linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(${this.props.flat.imageUrl})`
     }
     let classes = (this.props.flat === this.props.selectedFlat) ? "card flat selected" : "card flat"
+    // console.log(this.props.flat === this.props.selectedFlat)
+    console.log(this.props)
+
 
     return (
       <div className={classes} style={style} onClick={this.handleClick} >

@@ -6,13 +6,13 @@ import { createStore, combineReducers } from 'redux';
 import '../assets/stylesheets/application.scss';
 
 import flatsReducer from './reducers/flats_reducer';
-import selectedFatReducer from './reducers/selected_flat_reducer';
+import selectedFlatReducer from './reducers/selected_flat_reducer';
 
 
 // here we have the redux state tree
 const reducers = combineReducers({
  flats: flatsReducer,
- selectedFat: selectedFatReducer
+ selectedFlat: selectedFlatReducer
 });
 
 import App from './components/app'
